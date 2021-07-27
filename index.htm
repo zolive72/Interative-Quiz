@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Un petit Quiz pour se détendre</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-between px-0 bg-info">
+        <div class="bg-danger" style="width: 7rem;"></div>
+        <h1 class="text-dark display-2">Quiz</h1>
+        <div class="bg-danger" style="width: 7rem;"></div>
+    </div>
+
+    <div class="container-fluid bg-warning px-5">
+        <form class="mx-5 px-3">
+            <h3 class="pt-4 text-start text-decoration-underline">Escolhe a boa resposta.</h3>
+            <div class="border border-1 border-info bg-danger my-5 py-3 ps-3">
+                <p class="text-light fs-5">1- Ils sont ... en retard à l'aéroport.</p>
+                <div class="form-check ms-4 mb-2">
+                    <input type="radio" class="form-check-input" name="inputQuestion1" id="inputQuestion1-1" value="A"
+                        checked>
+                    <label class="form-check-label fw-bolder" for="inputQuestion1-1" name="Question1">arrivées</label>
+                </div>
+                <div class="form-check ms-4">
+                    <input type="radio" class="form-check-input" name="inputQuestion1" id="inputQuestion1-2" value="B">
+                    <label class="form-check-label fw-bolder" for="inputQuestion1-2">arrivés</label>
+                </div>
+            </div>
+            <div class="border border-1 border-info bg-danger my-5 py-3 ps-3">
+                <p class="text-light fs-5">2- Je ... ai téléphoné ce matin.</p>
+                <div class="form-check ms-4 mb-2">
+                    <input type="radio" class="form-check-input" name="inputQuestion2" id="inputQuestion2-1" value="A"
+                        checked>
+                    <label class="form-check-label fw-bolder" for="inputQuestion2-1">lui</label>
+                </div>
+                <div class="form-check ms-4">
+                    <input type="radio" class="form-check-input" name="inputQuestion2" id="inputQuestion2-2" value="B">
+                    <label class="form-check-label fw-bolder" for="inputQuestion2-2">l'</label>
+                </div>
+            </div>
+            <div class="border border-1 border-info bg-danger my-5 py-3 ps-3">
+                <p class="text-light fs-5">3- Il veut savoir ... que je fais comme travail.</p>
+                <div class="form-check ms-4 mb-2">
+                    <input type="radio" class="form-check-input" name="inputQuestion3" id="inputQuestion3-1" value="A"
+                        checked>
+                    <label class="form-check-label fw-bolder" for="inputQuestion3-1">qu'est-ce</label>
+                </div>
+                <div class="form-check ms-4">
+                    <input type="radio" class="form-check-input" name="inputQuestion3" id="inputQuestion3-2" value="B">
+                    <label class="form-check-label fw-bolder" for="inputQuestion3-2">ce</label>
+                </div>
+            </div>
+            <div class="border border-1 border-info bg-danger my-5 py-3 ps-3">
+                <p class="text-light fs-5">4- Nous ... sorti la voiture du garage.</p>
+                <div class="form-check ms-4 mb-2">
+                    <input type="radio" class="form-check-input" name="inputQuestion4" id="inputQuestion4-1" value="A"
+                        checked>
+                    <label class="form-check-label fw-bolder" for="inputQuestion4-1">avons</label>
+                </div>
+                <div class="form-check ms-4">
+                    <input type="radio" class="form-check-input" name="inputQuestion4" id="inputQuestion4-2" value="B">
+                    <label class="form-check-label fw-bolder" for="inputQuestion4-2">allons</label>
+                </div>
+            </div>
+            <div class="border border-1 border-info bg-danger my-5 py-3 ps-3">
+                <p class="text-light fs-5">5- Elle ne suit pas en classe. Elle est toujours ... de bavarder.</p>
+                <div class="form-check ms-4 mb-2">
+                    <input type="radio" class="form-check-input" name="inputQuestion5" id="inputQuestion5-1" value="A"
+                        checked>
+                    <label class="form-check-label fw-bolder" for="inputQuestion5-1">sur le point</label>
+                </div>
+                <div class="form-check ms-4">
+                    <input type="radio" class="form-check-input" name="inputQuestion5" id="inputQuestion5-2" value="B">
+                    <label class="form-check-label fw-bolder" for="inputQuestion5-2">en train de</label>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center py-4">
+                <button class="btn btn-info btn-lg">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <script src=".\app.js"></script>
+</body>
+
+</html>
