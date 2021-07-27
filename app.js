@@ -17,8 +17,9 @@ form.addEventListener('submit', event => {
     
     userAnswers.forEach((userAnswer, index) => {
         if(userAnswer === correctAnswers[index]){
-            return score += 20;
+            score += 20;
         }
     })
+    
     alert(`Você conseguiu ${score} % de respostas certas`);
 })
